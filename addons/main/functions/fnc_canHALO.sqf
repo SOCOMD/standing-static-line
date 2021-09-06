@@ -18,6 +18,6 @@ params ["_unit"];
 (_unit getVariable ["ssl_state", SSL_SITTING] == SSL_STANDING) && {
     (!SSL_RequireParachute || {backpack _unit isKindOf "B_Parachute"}) && {
         private _aircraft = _unit getVariable ["ssl_aircraft", objNull];
-        ((!isNull _aircraft) && (getPos _aircraft) select 2 < 1000) // maximum static line height of 1000m/3000ft
+        ((!isNull _aircraft) && (getPos _aircraft) select 2 > 1000) //minimum HALO height of 1000m/3000ft
     }
 }

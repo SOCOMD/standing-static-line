@@ -5,6 +5,7 @@ PREP(canAccessStaticLine);
 PREP(canAccessStaticLineOut);
 PREP(canCheckEquipment);
 PREP(canGetInStanding);
+PREP(canHALO);
 PREP(canHookUp);
 PREP(canJump);
 PREP(canRigAnchorCables);
