@@ -90,7 +90,7 @@ if (_anchorCableEnd != _aircraft) then {
     },{
         
         params ["_unit"];
-            "NonSteerable_Parachute_F" createVehicle [0, 0, 1000];
+            _parachute = "ssl_proxy_stand" createVehicle [0, 0, 1000];
             _parachute setDir (getDir _unit);
             _parachute setPos (getPos _unit);
             _unit moveInAny _parachute;
