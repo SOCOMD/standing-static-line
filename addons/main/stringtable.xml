@@ -28,6 +28,9 @@
         <Key ID="STR_SSL_Main_Jump">
             <English>Static Line Jump</English>
         </Key>
+        <Key ID="STR_SSL_Main_HALO">
+            <English>HALO</English>
+        </Key>
         <Key ID="STR_SSL_Main_AIGetInStanding">
             <English>AI Get In Standing</English>
         </Key>

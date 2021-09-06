@@ -66,7 +66,7 @@ _action = ["ssl_main_Jump", _displayName, _icon, _statement, _condition, {}, []]
 ["ssl_proxy_stand", 1, ["ACE_SelfActions"], _action, true] call ace_interact_menu_fnc_addActionToClass;
 
 
-_displayName = localize "STR_SSL_Main_Jump";
+_displayName = localize "STR_SSL_Main_HALO";
 _icon = "\a3\air_f_beta\Parachute_01\Data\UI\Map_Parachute_01_CA.paa";
 _statement = {[_player, false] call ssl_main_fnc_Jump};
 _condition = {[_player] call ssl_main_fnc_canHALO};
